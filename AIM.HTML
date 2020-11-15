@@ -32,7 +32,29 @@ float: left;
 width: 60%;
 padding: 0 20px;
 }
- 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
  
 @media only screen and (max-width:620px) {
  
@@ -45,22 +67,26 @@ width: 100%;
 </style>
 </head>
  
-<body style="font-family:verdana;color:#0f0f0f;">
+<body style="font-family:verdana;color:#0f0f0f;background-image:url('https://www.struers.com/-/media/Struers-media-library/Knowledge/Mounting/About-Mounting-1600x730-px.jpg?h=730&w=1600&lm=20200203T142753Z&hash=9F16C255964594F26A600771452AF948')">
  
-<div style="background-color:palegreen;padding:15px;text-align:center;">
-<h1>Aim of experiment </h1> <h3><i>HOT AND COLD MOUNTING OF SPECIMEN</i></h3>
+<div style=padding:15px;text-align:center;">
+ <h1>HOT AND COLD MOUNTING OF SPECIMEN</h1>
 </div>
-<div class="menu">
-<pre>
-		
-<a href="AIM.html" >AIM</a>
-<a href="Objective.html" >Objective</a>
-<a href="Materials.html" >Materials</a>
-<a href="Theory.html" >Theory</a>
-<a href="Precautions.html" >Precautions</a>
-<a href="Process.html" >Process</a></div>
-</pre>
- </div>
+
+
+      <ul id="menu">
+        <li><a href="AIM.html" >AIM</a></li>
+        <li><a href="Objective.html" >Objective</a></li>
+        <li><a href="Materials.html" >Materials</a></li>
+        <li><a href="Theory.html" >Theory</a></li>
+        <li><a href="Precautions.html" >Precautions</a></li>
+        <li><a href="Process.html" >Process</a></li>
+        <li><a href="Observations.html" >Observations</a></li>
+        <li><a href="Conclusion.html" >Conclusion</a></li>
+        <li><a href="Truble shooting.html" >Trouble shooting</a></li>
+      </ul>
+      
+
 <div class="main">
 <h2>AIM:</h2>
 <p align="justify"><i>To describe the process of mounting the samples for various purposes</i></p>
@@ -71,4 +97,5 @@ width: 100%;
  
 </body>
  
-</html>-
+</html>
+

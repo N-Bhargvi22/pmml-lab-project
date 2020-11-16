@@ -9,6 +9,7 @@ Aim
 <style>
 * {
 box-sizing: border-box;
+background-repeat:no-repeat;
 }
  
 .menu {
@@ -29,11 +30,38 @@ font-size:20px;
  
 .main {
 float: left;
-width: 80%;
+width: 60%;
 padding: 0 20px;
 }
- 
- 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+img{
+float: bottom;
+width: 60%;
+padding: 0 20px;
+margin-left:60px;
+}
 @media only screen and (max-width:620px) {
  
 .menu,
@@ -45,43 +73,52 @@ width: 100%;
 </style>
 </head>
  
-<body style="font-family:Verdana;color:#0f0f0f;">
+<body style="font-family:verdana;color:#0f0f0f;">
  
-<div style="background-color:paleGreen;padding:15px;text-align:center;">
-<h1>PRECAUTIONS</h1> <h3>Hot and Cold mounting of specimen</h3>
-</div>
- 
-<div style="overflow:auto">
-<div class="menu">
-<pre>
-		
-<a href="AIM.html" >AIM</a>
-<a href="Objective.html" >Objective</a>
-<a href="Materials.html" >Materials</a>
-<a href="Theory.html" >Theory</a>
-<a href="Precautions.html" >Precautions</a>
-<a href="Process.html" >Process</a>
-</pre>
+<div style="padding:15px;text-align:center;">
+ <h1>Objective</h1>
 </div>
 
+
+      <ul id="menu">
+        <li><a href="AIM.html" >AIM</a></li>
+        <li><a href="Objective.html" >Objective</a></li>
+        <li><a href="Materials.html" >Materials</a></li>
+        <li><a href="Theory.html" >Theory</a></li>
+        <li><a href="Precautions.html" >Precautions</a></li>
+        <li><a href="Process.html" >Process</a></li>
+        <li><a href="Observations`.html" >Observations</a></li>
+        <li><a href="Conclusion.html" >Conclusion</a></li>
+        <li><a href="Truble shooting.html" >Trouble shooting</a></li>
+      </ul>
 <div class="main">
+    <div style="background-image:url('https://www.agarscientific.com/media/catalog/product/cache/29e403749bf3ffdeb3bd20755632c6f4/l/a/lamplan-metallographie-resinesafroid-acrylique601_800.jpg');">
 <h2><i>Precautions for <b>Hot mounting</b> process:</i></h2>
 <p align="justify"> a) Clean the Specimen<p>
 <p align="justify">The specimen should be cleaned before mounting in order to improve adhesion to the mounting medium. Use acetone or at least alcohol. Cleaning in an ultrasonic bath could be necessary. Remember to dry the specimen well. Clean specimens should be handled with either gloves or tweezers.</p>
 <p align="justify"> b) Adjust the specimen size to the cylinder size (~ 3.0-5.0 mm distance to cylinder wall).</p>
 <p align="justify"> c)Adjust the specimen height – the final height of the mount should be approx. 20 mm.</p>
 <p align="justify"> d)Select the most suitable hot-mounting resin.</p>
-<p align="center"><img src="https://www.struers.com/-/media/Struers-media-library/Knowledge/Mounting-Hot/How-to-Hot-Mount-1600x730-px.jpg?h=730&w=1600&lm=20200203T142644Z&hash=A7B5CBFA0B96C8648E194E441E75B6BB"width="400"height="400">
+</div>
+<div class="img">
+<p align="center"><img src="https://www.struers.com/-/media/Struers-media-library/Knowledge/Mounting-Hot/How-to-Hot-Mount-1600x730-px.jpg?h=730&w=1600&lm=20200203T142644Z&hash=A7B5CBFA0B96C8648E194E441E75B6BB"width="500"height="300">
+</div>
 <p align="center">Hot mounting</p>
+
+<div class="main">
+    <div style="background-image:url('https://www.agarscientific.com/media/catalog/product/cache/29e403749bf3ffdeb3bd20755632c6f4/l/a/lamplan-metallographie-resinesafroid-acrylique601_800.jpg');">
 <h2><i>Precautions for <b>Cold mounting</b> process</i></h2>
 <p align="justify"> a)Clean the specimen</p>
 <p align="justify"> b)Adjust the specimen size to the mounting cup size.</p>
-<p align="center"><img src="https://www.struers.com/-/media/Struers-media-library/Knowledge/Mounting-Cold/How-to-cold-mount-new-1600x730-px.jpg?h=730&w=1600&lm=20200203T142637Z&hash=46AAFAEF0F6E2BD0D226CA2EEDF211FB"width="500"height="500">
-<p align="center">Specimen in the mounting cups</p>
 </div>
+<div class="img">
+<p align="center"><img src="https://www.struers.com/-/media/Struers-media-library/Knowledge/Mounting-Cold/How-to-cold-mount-new-1600x730-px.jpg?h=730&w=1600&lm=20200203T142637Z&hash=46AAFAEF0F6E2BD0D226CA2EEDF211FB"width="800"height="200"</p>
+</div>
+<p align="center">Specimen in the mounting cups</p>
 
 
  
 </body>
  
 </html>
+      
